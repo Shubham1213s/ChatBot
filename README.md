@@ -51,7 +51,7 @@ pip install -r requirements.txt
    - │── requirements.txt # Python dependencies
    - │── README.md # Instructions + Example Q&A
 
-## Usage
+## Instructions and Example Q&A
 
 1. Run the chatbot and select invoice files using a file dialog:
 
@@ -64,11 +64,11 @@ python main.py
 4. After parsing, the interactive chatbot will start. You can ask questions like:
 
    - How many invoices are due in the next 7 days?
-     Ans 1 invoice(s): East Repair In , due 26/02/2019, $145.0
+     - Ans 1 invoice(s): East Repair In , due 26/02/2019, $145.0
    - What is the total value of the invoice from East Repair In ?
-     Ans $145.00
+     - Ans $145.00
    - List all vendors with invoices > $140
-     Ans East Repair In  ($145.0)
+     - Ans East Repair In  ($145.0)
    
 
 
