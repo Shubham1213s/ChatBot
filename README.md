@@ -40,7 +40,7 @@ pip install -r requirements.txt
     - Add C:\Program Files\Tesseract-OCR to your PATH variable.
     - Restart your terminal or IDE.
 
-4. Folder Structure 
+## Folder Structure 
 
    invoice-chatbot:
    - │── invoices/ # Sample invoices (PDF/image) for testing
@@ -50,5 +50,25 @@ pip install -r requirements.txt
    - │── invoice_parser.py # OCR + parsing logic
    - │── requirements.txt # Python dependencies
    - │── README.md # Instructions + Example Q&A
+
+## Usage
+
+1. Run the chatbot and select invoice files using a file dialog:
+
+```bash
+python main.py
+```
+
+2. A file selection window will open. Choose one or multiple invoices (PDF, PNG, or JPG).
+3. The invoices will be parsed and saved to: 'parsed_invoices.json'
+4. After parsing, the interactive chatbot will start. You can ask questions like:
+
+   - How many invoices are due in the next 7 days?
+     Ans 1 invoice(s): East Repair In , due 26/02/2019, $145.0
+   - What is the total value of the invoice from East Repair In ?
+     Ans $145.00
+   - List all vendors with invoices > $140
+     Ans East Repair In  ($145.0)
+   
 
 
