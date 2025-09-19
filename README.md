@@ -19,8 +19,7 @@ A Python-based chatbot that parses invoice documents (PDFs or images) and extrac
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/chatbot-invoice-parsing.git
-cd chatbot-invoice-parsing
+git clone https://github.com/Shubham1213s/ChatBot.git
 ```
 
 2. Install Python dependencies:
