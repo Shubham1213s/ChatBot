@@ -63,17 +63,23 @@ python main.py
 3. The invoices will be parsed and saved to: 'parsed_invoices.json'
 4. After parsing, the interactive chatbot will start. You can ask questions like:
 
-Ask a question (or type 'exit'): How many invoices are due in the next 7 days?
+`
+How many invoices are due in the next 7 days?
+`
 Ans: 1 invoice(s): East Repair In , due 26/02/2019, $145.0
 
-Ask a question (or type 'exit'): What is the total value of the invoice from East Repair In ?
+`
+What is the total value of the invoice from East Repair In ?
+`
 Ans: $145.00
 
-Ask a question (or type 'exit'): List all vendors with invoices > $140
+`
+List all vendors with invoices > $140
+`
 Ans: East Repair In ($145.0)
 
-Ask a question (or type 'exit'): exit
-   
+5. ## Exit
+ 
 - Type `exit` to close the chatbot.  
 - The chatbot answers queries based on the invoices you selected.
 
