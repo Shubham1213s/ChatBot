@@ -10,20 +10,35 @@ A Python-based chatbot that parses invoice documents (PDFs or images) and extrac
 - [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki)
   (This version is well-maintained for Windows.)
 
-- Install it (default location usually is:
-  C:\Program Files\Tesseract-OCR\tesseract.exe)
-
-- Add the path to your environment variables:
-- Press Win + R → type sysdm.cpl → Advanced → Environment Variables
-- Add a new variable in System variables:
-  TESSDATA_PREFIX = C:\Program Files\Tesseract-OCR\
-- Add C:\Program Files\Tesseract-OCR to your PATH. 
-- Restart your terminal/IDE.
-
 - Python libraries:
+  ```
   pip install pytesseract pdf2image pillow regex
+  ```
+## Installation
 
+1. Clone the repository:
 
+```bash
+git clone https://github.com/yourusername/chatbot-invoice-parsing.git
+cd chatbot-invoice-parsing
+```
 
+2. Install Python dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Install Tesseract OCR:
+
+Windows:
+ - Install Tesseract.
+ - Press Win + R, type sysdm.cpl, go to Advanced → Environment Variables.
+ - In System variables, add a new variable:
+   ```
+   Variable name: TESSDATA_PREFIX
+   Variable value: C:\Program Files\Tesseract-OCR\
+   ```
+  - Add C:\Program Files\Tesseract-OCR to your PATH variable.
+  - Restart your terminal or IDE.
 
 
