@@ -42,13 +42,13 @@ pip install -r requirements.txt
 
 4. Folder Structure 
 
-   invoice-chatbot/
-    │── invoices/                  # Sample invoices (PDF/image) for testing
-    │── parsed_invoices.json       # Output file storing extracted structured data
-    │── main.py                     # Entry point to run the chatbot
-    │── chatbot.py                  # Chatbot interface logic (Q&A)
-    │── invoice_parser.py           # OCR + parsing logic
-    │── requirements.txt            # Python dependencies
-    │── README.md                   # Instructions + Example Q&A
+   invoice-chatbot/␣␣
+   │── invoices/ # Sample invoices (PDF/image) for testing
+   │── parsed_invoices.json # Output file storing extracted structured data
+   │── main.py # Entry point to run the chatbot
+   │── chatbot.py # Chatbot interface logic (Q&A)
+   │── invoice_parser.py # OCR + parsing logic
+   │── requirements.txt # Python dependencies
+   │── README.md # Instructions + Example Q&A
 
 
