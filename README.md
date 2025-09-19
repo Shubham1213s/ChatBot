@@ -9,4 +9,4 @@ A Python-based chatbot that parses invoice documents (PDFs or images) and extrac
 - [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki)
   (This version is well-maintained for Windows.)
 - Python libraries:
-```bash pip install pytesseract pdf2image pillow regex
+  pip install pytesseract pdf2image pillow regex
